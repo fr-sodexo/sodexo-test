@@ -1,4 +1,4 @@
-# Documentação de Desafio para Desenvolvedor Android Sodexo
+# Documentação - Desafio Android Sodexo
 
 Foi desenvolvido um aplicativo em Kotlin com as seguintes funcionalidades:  
 * Lista de Filmes do Trakt sem paginação com o título e o ano de lançamento.  
