@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:orientation="vertical"
+                android:padding="8dp"
+                android:layout_width="match_parent"
+                android:background="@color/gray"
+                android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/fragment_movie_list_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/movie_list_item" />
+
+    <com.example.sodexo.view.component.LoadingView
+            android:id="@+id/fragment_movie_list_loading_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:loadingViewVisibility="true"
+            app:loadingViewBottomLabel="@string/loading_movie_list_subtitle"/>
+
+</RelativeLayout>

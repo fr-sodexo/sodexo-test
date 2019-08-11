@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">Sodexo</string>
+
+    <string name="loading_default_title">Please, wait…</string>
+    <string name="loading_default_subtitle">Loading Content</string>
+    <string name="loading_movie_list_subtitle">Fetching Movies</string>
+    <string name="loading_movie_details_subtitle">Fetching Movie Details</string>
+
+    <string name="movie_details_rating">Rating: %s</string>
+    <string name="movie_details_imdb">See on IMDB</string>
+
+</resources>
