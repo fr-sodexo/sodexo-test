@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="LoadingView">
+        <attr name="loadingViewTopLabel" format="string" localization="suggested" />
+        <attr name="loadingViewBottomLabel" format="string" localization="suggested" />
+        <attr name="loadingViewVisibility" format="boolean" />
+        <attr name="loadingViewAnchorTop" format="boolean" />
+    </declare-styleable>
+
+</resources>
